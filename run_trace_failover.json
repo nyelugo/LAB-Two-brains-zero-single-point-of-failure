@@ -1,0 +1,52 @@
+{
+  "run_at": "2026-07-22T09:20:42+00:00",
+  "category": "technology",
+  "mode": "sync",
+  "articles_requested": 2,
+  "articles_processed": 2,
+  "providers_available": [
+    "openai"
+  ],
+  "failover_events": [
+    "simulated outage: cohere removed from pool",
+    "summarize: cohere unavailable, used openai",
+    "summarize: cohere unavailable, used openai"
+  ],
+  "news_api_requests": 1,
+  "llm_calls": [
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 87,
+      "output_tokens": 47,
+      "cost_usd": 4.125e-05,
+      "latency_s": 1.201
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 95,
+      "output_tokens": 25,
+      "cost_usd": 2.925e-05,
+      "latency_s": 0.931
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 55,
+      "output_tokens": 37,
+      "cost_usd": 3.045e-05,
+      "latency_s": 1.459
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 85,
+      "output_tokens": 29,
+      "cost_usd": 3.015e-05,
+      "latency_s": 0.818
+    }
+  ],
+  "total_cost_usd": 0.0001311,
+  "budget_usd": 5.0
+}

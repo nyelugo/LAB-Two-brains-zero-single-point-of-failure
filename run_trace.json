@@ -1,0 +1,81 @@
+{
+  "run_at": "2026-07-22T09:21:19+00:00",
+  "category": "technology",
+  "mode": "sync",
+  "articles_requested": 4,
+  "articles_processed": 4,
+  "providers_available": [
+    "cohere",
+    "openai"
+  ],
+  "failover_events": [],
+  "news_api_requests": 1,
+  "llm_calls": [
+    {
+      "provider": "cohere",
+      "model": "command-r-08-2024",
+      "input_tokens": 291,
+      "output_tokens": 63,
+      "cost_usd": 8.145e-05,
+      "latency_s": 1.314
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 104,
+      "output_tokens": 29,
+      "cost_usd": 3.3e-05,
+      "latency_s": 0.923
+    },
+    {
+      "provider": "cohere",
+      "model": "command-r-08-2024",
+      "input_tokens": 250,
+      "output_tokens": 70,
+      "cost_usd": 7.95e-05,
+      "latency_s": 1.294
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 120,
+      "output_tokens": 29,
+      "cost_usd": 3.54e-05,
+      "latency_s": 0.819
+    },
+    {
+      "provider": "cohere",
+      "model": "command-r-08-2024",
+      "input_tokens": 290,
+      "output_tokens": 61,
+      "cost_usd": 8.01e-05,
+      "latency_s": 1.959
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 109,
+      "output_tokens": 27,
+      "cost_usd": 3.255e-05,
+      "latency_s": 0.843
+    },
+    {
+      "provider": "cohere",
+      "model": "command-r-08-2024",
+      "input_tokens": 280,
+      "output_tokens": 50,
+      "cost_usd": 7.2e-05,
+      "latency_s": 1.038
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "input_tokens": 97,
+      "output_tokens": 28,
+      "cost_usd": 3.135e-05,
+      "latency_s": 0.832
+    }
+  ],
+  "total_cost_usd": 0.00044535,
+  "budget_usd": 5.0
+}
