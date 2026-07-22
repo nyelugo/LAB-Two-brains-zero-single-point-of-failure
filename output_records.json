@@ -4,11 +4,11 @@
     "source": "Motor1",
     "url": "https://www.motor1.com/news/802238/2027-mercedes-maybach-gls-680-engine-specs-details/",
     "published_at": "2026-07-21T03:00:23Z",
-    "summary": "Mercedes-Benz has unveiled the 2027 Maybach GLS 680, an updated three-row SUV with a refreshed exterior and set to hit the market later this year. This new Maybach model offers a luxurious experience with enhanced features and is expected to attract attention in the automotive industry.",
-    "sentiment": "POSITIVE  \nThe unveiling of the luxurious 2027 Maybach GLS 680 with enhanced features indicates a forward-looking innovation in the automotive industry.",
+    "summary": "Mercedes-Benz is set to launch the 2027 Maybach GLS 680, an updated three-row SUV, later this year. The new model will offer a refreshed exterior design and is expected to provide an enhanced luxury experience.",
+    "sentiment": "POSITIVE  \nThe news item highlights the launch of an updated luxury vehicle with improvements in design and experience, signaling a positive development for Mercedes-Benz.",
     "summary_provider": "cohere",
     "sentiment_provider": "openai",
-    "processed_at": "2026-07-22T09:21:12+00:00",
+    "processed_at": "2026-07-22T09:42:23+00:00",
     "error": null
   },
   {
@@ -16,11 +16,11 @@
     "source": "Nintendo Life",
     "url": "http://www.nintendolife.com/news/2026/07/donkey-kong-arcade-lego-set-official-images-surface-already-in-store",
     "published_at": "2026-07-21T02:45:00Z",
-    "summary": "LEGO has released official images of the Donkey Kong Arcade set, which is now available in stores, offering fans a chance to build and display a retro arcade machine inspired by the classic video game. This set, featuring a detailed replica of the original Donkey Kong cabinet, is part of LEGO's Creator Expert series and appeals to both gaming and LEGO enthusiasts.",
-    "sentiment": "POSITIVE  \nThe announcement of the Donkey Kong Arcade set highlights its appeal to fans, offering excitement and nostalgia for both gamers and LEGO lovers.",
+    "summary": "LEGO has released official images of the Donkey Kong Arcade set, which is now available in stores, offering fans a chance to build their own arcade cabinet replica. The set, inspired by the classic arcade game, features a detailed cabinet design and minifigures of Donkey Kong and Mario.",
+    "sentiment": "POSITIVE  \nThe news highlights the release of a new LEGO set that fans of both LEGO and the classic arcade game would likely find exciting and enjoyable.",
     "summary_provider": "cohere",
     "sentiment_provider": "openai",
-    "processed_at": "2026-07-22T09:21:14+00:00",
+    "processed_at": "2026-07-22T09:42:25+00:00",
     "error": null
   },
   {
@@ -28,11 +28,11 @@
     "source": "9to5Mac",
     "url": "https://9to5mac.com/2026/07/20/ios-27-beta-4-adds-a-useful-apple-tv-app-feature-heres-how-it-works/",
     "published_at": "2026-07-21T00:25:00Z",
-    "summary": "Apple has released iOS 27 beta 4, which introduces an Automatic Downloads feature within the Apple TV app, allowing users to enable automatic downloads for TV shows and movies. This new feature, as spotted by Aaron Perris, provides a convenient way to manage and access content within the Apple TV app.",
-    "sentiment": "POSITIVE  \nThe news item highlights a new feature in iOS that enhances user convenience and improves content management in the Apple TV app.",
+    "summary": "Apple has released iOS 27 beta 4, which introduces an Automatic Downloads feature in the Apple TV app, allowing users to enable automatic downloads for movies and TV shows. This new feature, as spotted by Aaron Perris, provides a convenient way to manage content downloads.",
+    "sentiment": "POSITIVE  \nThe news highlights a new convenient feature in iOS 27 that enhances user experience by simplifying content management.",
     "summary_provider": "cohere",
     "sentiment_provider": "openai",
-    "processed_at": "2026-07-22T09:21:17+00:00",
+    "processed_at": "2026-07-22T09:42:27+00:00",
     "error": null
   },
   {
@@ -40,11 +40,11 @@
     "source": "Yanko Design",
     "url": "https://www.yankodesign.com/2026/07/20/a-33700-tiny-home-that-finally-gets-the-floor-plan-right/",
     "published_at": "2026-07-20T23:30:31Z",
-    "summary": "The Fairfax 20, a tiny home, showcases the ongoing appeal of the tiny home movement, offering a reminder of the benefits of downsizing with its compact yet functional design. This movement continues to gain traction, attracting those seeking alternative living arrangements.",
-    "sentiment": "POSITIVE  \nThe article highlights the appealing aspects of the tiny home movement and its growing popularity, suggesting a favorable outlook on alternative living arrangements.",
+    "summary": "The Fairfax 20, a tiny home with modern amenities and a unique design, showcases the ongoing appeal of the tiny home movement, offering an alternative to traditional housing with its compact yet functional living spaces. This movement continues to gain traction as individuals seek simpler, more sustainable lifestyles.",
+    "sentiment": "POSITIVE  \nThe news item highlights the appeal and growing popularity of tiny homes, reflecting a positive shift towards sustainable living.",
     "summary_provider": "cohere",
     "sentiment_provider": "openai",
-    "processed_at": "2026-07-22T09:21:19+00:00",
+    "processed_at": "2026-07-22T09:42:30+00:00",
     "error": null
   }
 ]

@@ -97,6 +97,20 @@ Failover events (proof the fallback path works):
   - summarize: cohere unavailable, used openai
 ```
 
+## Screenshots
+
+| what | file |
+|---|---|
+| 29 unit tests passing | `screenshots/pytest_passing.png` |
+| app processing 4 articles | `screenshots/main_app_running.png` |
+| failover: Cohere offline, OpenAI covers both jobs | `screenshots/failover_demo.png` |
+
+![tests passing](screenshots/pytest_passing.png)
+
+![app running](screenshots/main_app_running.png)
+
+![failover](screenshots/failover_demo.png)
+
 ## Cost analysis
 
 Both models are priced at **$0.15 / 1M input** and **$0.60 / 1M output** tokens.

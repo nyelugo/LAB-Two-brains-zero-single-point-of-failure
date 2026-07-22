@@ -70,6 +70,12 @@ Full records in `output_records.json`.
 | 5 | `pytest test_summarizer.py -v` | **29 passed** |
 | 6 | `python main.py --auto -n 4` | 4 articles, artifacts written |
 
+Screenshots of the verifying runs:
+
+- `screenshots/pytest_passing.png` — 29 passed
+- `screenshots/main_app_running.png` — 4 articles processed
+- `screenshots/failover_demo.png` — Cohere offline, every job served by OpenAI
+
 `summary_provider` and `sentiment_provider` on every output record are the
 observable evidence of which brain did which job.
 

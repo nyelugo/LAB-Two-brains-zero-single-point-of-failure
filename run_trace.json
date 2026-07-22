@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-07-22T09:21:19+00:00",
+  "run_at": "2026-07-22T09:42:30+00:00",
   "category": "technology",
   "mode": "sync",
   "articles_requested": 4,
@@ -15,67 +15,67 @@
       "provider": "cohere",
       "model": "command-r-08-2024",
       "input_tokens": 291,
-      "output_tokens": 63,
-      "cost_usd": 8.145e-05,
-      "latency_s": 1.314
+      "output_tokens": 52,
+      "cost_usd": 7.485e-05,
+      "latency_s": 1.12
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
-      "input_tokens": 104,
+      "input_tokens": 93,
       "output_tokens": 29,
-      "cost_usd": 3.3e-05,
-      "latency_s": 0.923
+      "cost_usd": 3.135e-05,
+      "latency_s": 2.54
     },
     {
       "provider": "cohere",
       "model": "command-r-08-2024",
       "input_tokens": 250,
-      "output_tokens": 70,
-      "cost_usd": 7.95e-05,
-      "latency_s": 1.294
+      "output_tokens": 58,
+      "cost_usd": 7.23e-05,
+      "latency_s": 1.182
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
-      "input_tokens": 120,
-      "output_tokens": 29,
-      "cost_usd": 3.54e-05,
-      "latency_s": 0.819
+      "input_tokens": 108,
+      "output_tokens": 30,
+      "cost_usd": 3.42e-05,
+      "latency_s": 0.764
     },
     {
       "provider": "cohere",
       "model": "command-r-08-2024",
       "input_tokens": 290,
-      "output_tokens": 61,
-      "cost_usd": 8.01e-05,
-      "latency_s": 1.959
+      "output_tokens": 55,
+      "cost_usd": 7.65e-05,
+      "latency_s": 1.175
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
-      "input_tokens": 109,
-      "output_tokens": 27,
-      "cost_usd": 3.255e-05,
-      "latency_s": 0.843
+      "input_tokens": 103,
+      "output_tokens": 24,
+      "cost_usd": 2.985e-05,
+      "latency_s": 0.902
     },
     {
       "provider": "cohere",
       "model": "command-r-08-2024",
       "input_tokens": 280,
-      "output_tokens": 50,
-      "cost_usd": 7.2e-05,
-      "latency_s": 1.038
+      "output_tokens": 56,
+      "cost_usd": 7.56e-05,
+      "latency_s": 1.077
     },
     {
       "provider": "openai",
       "model": "gpt-4o-mini",
-      "input_tokens": 97,
-      "output_tokens": 28,
-      "cost_usd": 3.135e-05,
-      "latency_s": 0.832
+      "input_tokens": 103,
+      "output_tokens": 24,
+      "cost_usd": 2.985e-05,
+      "latency_s": 1.646
     }
   ],
-  "total_cost_usd": 0.00044535,
+  "total_cost_usd": 0.0004245,
   "budget_usd": 5.0
 }
