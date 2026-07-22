@@ -141,9 +141,17 @@ Optimisations worth making before scale:
 | `summarizer.py` | the pipeline; sync and async |
 | `test_summarizer.py` | 29 offline unit tests |
 | `main.py` | interactive CLI, writes trace + records |
-| `run_trace.json` | execution trace, healthy run |
-| `run_trace_failover.json` | execution trace with Cohere offline |
-| `output_records.json` | processed article records |
+| `run_main.command` / `.bat` | double-click launchers |
+| `run_tests.command` / `.bat` | double-click test launchers |
+
+Generated output, not source:
+
+| path | contents |
+|---|---|
+| `artifacts/run_trace.json` | execution trace, healthy run |
+| `artifacts/run_trace_failover.json` | execution trace with Cohere offline |
+| `artifacts/output_records.json` | processed article records |
+| `screenshots/` | verification screenshots |
 
 ## Known limits
 

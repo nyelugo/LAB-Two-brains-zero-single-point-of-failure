@@ -1,0 +1,50 @@
+[
+  {
+    "title": "The New Mercedes-Maybach GLS Debuts With More Power, Better Style - Motor1.com",
+    "source": "Motor1",
+    "url": "https://www.motor1.com/news/802238/2027-mercedes-maybach-gls-680-engine-specs-details/",
+    "published_at": "2026-07-21T03:00:23Z",
+    "summary": "Mercedes-Benz is set to launch the 2027 Maybach GLS 680, an updated three-row SUV, later this year. The vehicle boasts a refreshed exterior and is expected to offer a luxurious driving experience, building on the success of its predecessor.",
+    "sentiment": "POSITIVE  \nThe announcement highlights the launch of an updated luxury SUV, emphasizing its refined features and successful lineage, which conveys excitement and anticipation.",
+    "summary_provider": "cohere",
+    "sentiment_provider": "openai",
+    "processed_at": "2026-07-22T10:03:08+00:00",
+    "error": null
+  },
+  {
+    "title": "Donkey Kong Arcade LEGO Set Official Images Surface, Already In-Store - nintendolife.com",
+    "source": "Nintendo Life",
+    "url": "http://www.nintendolife.com/news/2026/07/donkey-kong-arcade-lego-set-official-images-surface-already-in-store",
+    "published_at": "2026-07-21T02:45:00Z",
+    "summary": "LEGO has released official images of the Donkey Kong Arcade set, which is now available in stores. The set, inspired by the classic arcade game, features a buildable Donkey Kong machine with minifigures and accessories.",
+    "sentiment": "POSITIVE  \nThe announcement of the Donkey Kong Arcade set by LEGO, along with its availability in stores, presents an exciting opportunity for fans of both LEGO and classic arcade games.",
+    "summary_provider": "cohere",
+    "sentiment_provider": "openai",
+    "processed_at": "2026-07-22T10:03:11+00:00",
+    "error": null
+  },
+  {
+    "title": "iOS 27 beta 4 adds a useful Apple TV app feature, here\u2019s how it works - 9to5Mac",
+    "source": "9to5Mac",
+    "url": "https://9to5mac.com/2026/07/20/ios-27-beta-4-adds-a-useful-apple-tv-app-feature-heres-how-it-works/",
+    "published_at": "2026-07-21T00:25:00Z",
+    "summary": "Apple unveiled iOS 27 beta 4, introducing an Automatic Downloads feature within the Apple TV app, which allows users to enable automatic downloads for purchased content. This new feature, as highlighted by Aaron Perris, provides a convenient way to manage and access media across Apple devices.",
+    "sentiment": "POSITIVE  \nThe announcement highlights a beneficial new feature that enhances user convenience and experience with Apple devices.",
+    "summary_provider": "cohere",
+    "sentiment_provider": "openai",
+    "processed_at": "2026-07-22T10:03:13+00:00",
+    "error": null
+  },
+  {
+    "title": "A $33,700 Tiny Home That Finally Gets the Floor Plan Right - Yanko Design",
+    "source": "Yanko Design",
+    "url": "https://www.yankodesign.com/2026/07/20/a-33700-tiny-home-that-finally-gets-the-floor-plan-right/",
+    "published_at": "2026-07-20T23:30:31Z",
+    "summary": "The Fairfax 20, a tiny home with modern amenities and an innovative design, showcases the ongoing appeal of the tiny home movement. This movement continues to gain popularity as it offers an alternative lifestyle with a focus on simplicity and sustainability.",
+    "sentiment": "POSITIVE  \nThe news item highlights the popularity and appealing aspects of the tiny home movement, emphasizing simplicity and sustainability.",
+    "summary_provider": "cohere",
+    "sentiment_provider": "openai",
+    "processed_at": "2026-07-22T10:03:14+00:00",
+    "error": null
+  }
+]

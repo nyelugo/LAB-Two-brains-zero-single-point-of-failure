@@ -11,7 +11,7 @@ Reviewer entry point. Everything below was produced by a real run.
 INPUT    news category (default: technology)
 DECIDE   fetch top headlines; keep only articles with >= 80 chars of text
 BUILD    NewsAPI -> Cohere (summarize) -> OpenAI (sentiment) -> JSON records
-VERIFY   run_trace.json records every LLM call, cost, and failover event
+VERIFY   artifacts/run_trace.json records every LLM call, cost, and failover event
 EXPLAIN  see "Operational risk" below
 ```
 
@@ -21,8 +21,8 @@ automatically. Configuration lives in `config.py`; secrets are read from
 
 ## 2. Execution trace
 
-- `run_trace.json` — healthy run, 4 articles, 8 LLM calls, 0 failovers
-- `run_trace_failover.json` — Cohere forcibly offline, 3 failover events recorded
+- `artifacts/run_trace.json` — healthy run, 4 articles, 8 LLM calls, 0 failovers
+- `artifacts/run_trace_failover.json` — Cohere forcibly offline, 3 failover events recorded
 
 Reproduce either:
 
@@ -57,7 +57,7 @@ One article as received from NewsAPI (`content` truncated by the free tier):
 }
 ```
 
-Full records in `output_records.json`.
+Full records in `artifacts/output_records.json`.
 
 ## 5. Verification
 

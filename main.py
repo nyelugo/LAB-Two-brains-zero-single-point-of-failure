@@ -26,8 +26,9 @@ from news_api import NewsAPIError
 from summarizer import NewsSummarizer, render
 
 CATEGORIES = ["technology", "business", "science", "health", "sports", "general"]
-TRACE_PATH = Path(__file__).parent / "run_trace.json"
-OUTPUT_PATH = Path(__file__).parent / "output_records.json"
+ARTIFACTS_DIR = Path(__file__).parent / "artifacts"
+TRACE_PATH = ARTIFACTS_DIR / "run_trace.json"
+OUTPUT_PATH = ARTIFACTS_DIR / "output_records.json"
 
 BANNER = r"""
 +--------------------------------------------------------------+
@@ -90,6 +91,7 @@ def write_artifacts(summarizer: NewsSummarizer, records, category: str, concurre
         "total_cost_usd": round(summarizer.tracker.total_cost, 8),
         "budget_usd": summarizer.tracker.budget_usd,
     }
+    ARTIFACTS_DIR.mkdir(exist_ok=True)
     TRACE_PATH.write_text(json.dumps(trace, indent=2))
     OUTPUT_PATH.write_text(json.dumps([r.to_dict() for r in records], indent=2))
 
@@ -168,7 +170,7 @@ def main() -> int:
         print("\nNo failover needed - both providers healthy this run.")
 
     write_artifacts(summarizer, records, category, args.concurrent)
-    print(f"\nWrote {TRACE_PATH.name} and {OUTPUT_PATH.name}")
+    print(f"\nWrote artifacts/{TRACE_PATH.name} and artifacts/{OUTPUT_PATH.name}")
     print(f"OK - {len(records)} article(s) processed.")
     return 0
 
